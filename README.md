@@ -1,4 +1,4 @@
-Create a Token on the binance smart chain.
+With this solidity code you can create a Token on the binance smart chain.
 
 This token is currently a HONEYPOT.
 
