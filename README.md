@@ -1,4 +1,4 @@
-With this solidity code you can create a Token on the Binance Smart Chain.
+You can create a scam Token on the Binance Smart Chain.
 
 This token is currently a HONEYPOT.
 
