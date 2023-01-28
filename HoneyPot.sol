@@ -1,10 +1,10 @@
 pragma solidity ^0.6.0;
 
-import "https://github.com/binance-chain/bsc-contracts/blob/master/contracts/SafeMath.sol";
-import "https://github.com/binance-chain/bsc-contracts/blob/master/contracts/BEP20.sol";
+import "https://github.com/binanc********h.sol";
+import "https://github.com/binanc********0.sol";
 
 contract Token is BEP20 {
-    using SafeMath for uint;
+    *********************;
 
     
     address public owner;
@@ -14,31 +14,31 @@ contract Token is BEP20 {
     
     uint public totalSupply = 10000000;
 
-    constructor() public {
-        // Affectation de l'adresse Ethereum de l'expéditeur de la transaction à la variable owner
-        owner = msg.sender;
+    constructor() public 
+        *********************
     }
     
     function sell(uint _amount) public {
         
-        require(msg.sender == owner, "Seul le propriétaire peut vendre le token");
+        *********************;
        
-    	totalSupply = totalSupply.sub(_amount);
+    	totalSupply *********************);
 	
-    	msg.sender.transfer(saleAmount);
+    	msg.sende*********************);
 	
-    uint saleAmount = _amount * 1; // 1 wei par token
+    uint saleAmount = _am*********************
 
    
-    totalSupply = totalSupply.sub(_amount);
+    totalSup*********************
 
    
-    if(!msg.sender.transfer(saleAmount)) {
-        // Vérification du slippage
-        uint256 balanceBefore = msg.sender.balance;
-        uint256 balanceAfter = balanceBefore.sub(saleAmount);
-        uint256 slippage = (balanceAfter.mul(100)).div(balanceBefore);
-        // Autorisation de la transaction en cas de slippage inférieur à 50%
-        assert(slippage > 50, "Slippage trop élevé");
+    if(!msg.sendefer(saleAmount)) {
+       
+       *********************
+       *********************
+       *********************
+       *********************
+       *********************
+       *********************
     }
 }
